@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laugh with Me😂</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <form action="/getajoke" method="post">
+        <p>Select the categroy of joke: </p>
+        <input type="radio" name="category" value="Programming">
+        <label>Programming</label>
+        <input type="radio" name="category" value="Misc">
+        <label>Misc</label>
+        <input type="radio" name="category" value="Dark">
+        <label>Dark</label>
+        <input type="radio" name="category" value="Pun">
+        <label>Pun</label>
+        <input type="radio" name="category" value="Spooky">
+        <label>Spooky</label>
+        <input type="radio" name="category" value="Christmas">
+        <label>Christmas</label>
+
+        <p>Select flags to blacklist: </p>
+        <input type="checkbox" name="blacklistedflags" value="nsfw">
+        <label>NSFW</label>
+        <input type="checkbox" name="blacklistedflags" value="religious">
+        <label>Religious</label>
+        <input type="checkbox" name="blacklistedflags" value="political">
+        <label>Political</label>
+        <input type="checkbox" name="blacklistedflags" value="racist">
+        <label>Racist</label>
+        <input type="checkbox" name="blacklistedflags" value="sexist">
+        <label>Sexist</label>
+        <input type="checkbox" name="blacklistedflags" value="explicit">
+        <label>Explicit</label>
+
+        <p>Type: </p>
+        <input type="radio" name="type" value="single">
+        <label>Single</label>
+        <input type="radio" name="type" value="twopart">
+        <label>Two part</label>
+
+        <br><br>
+        <button type="submit">Get Joke</button>
+    </form>
+</body>
+</html>
